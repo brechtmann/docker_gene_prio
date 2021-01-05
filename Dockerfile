@@ -7,6 +7,7 @@ FROM continuumio/miniconda3
 # update and setup system
 RUN apt-get update -y \
     && apt-get install -y bc less wget vim git \
+    && apt-get install -y build-essential \
     && apt-get clean 
 
 # init drop env
