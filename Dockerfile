@@ -14,7 +14,7 @@ RUN conda create -y -c anaconda -c conda-forge -c bioconda -c pytorch -n genepro
         "python>=3.8" \
         "numpy" \
         "pytorch" \
-        "pandas" \
+        "pandas" 
 
 COPY environment.yml /tmp/
 RUN conda env update --prune -f /tmp/environment.yml \
