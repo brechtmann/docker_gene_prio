@@ -36,7 +36,9 @@ dependencies:
   - tqdm
   - dask
   - jupyter
+  - mlflow
   - papermill>=2.2
+  - jinja2
   
   - pip:
     # variantkey currently only exists on github
