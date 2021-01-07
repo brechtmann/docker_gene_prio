@@ -22,4 +22,7 @@ RUN conda env update --prune -f /tmp/environment.yml \
     && conda remove --force -n drop drop bioconductor-bsgenome.hsapiens.ucsc.hg19 r-bh \
     && conda clean --all --yes
 
+RUN conda activate geneprofanalysis \
+    && pyensembl install --release 76 99 --species "homo_sapiens"
+
 CMD [ "bash" ]
