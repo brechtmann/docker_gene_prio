@@ -23,6 +23,7 @@ RUN conda env update --prune -f /tmp/environment.yml \
     && conda clean --all --yes
 
 RUN conda init bash \
+    && bash \
     && conda activate geneprofanalysis \
     && pyensembl install --release 76 99 --species "homo_sapiens"
 
