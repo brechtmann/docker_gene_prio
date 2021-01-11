@@ -39,10 +39,10 @@ dependencies:
   - mlflow
   - papermill>=2.2
   - jinja2
+  - snakemake
   
   - pip:
     # variantkey currently only exists on github
-    - snakemake
     - git+https://github.com/Genomicsplc/variantkey.git#egg=variantkey&subdirectory=python
  
 
