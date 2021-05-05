@@ -15,7 +15,7 @@ dependencies:
   - pandas>=1.1.4
   - pyyaml
   - tqdm
-  - sqlalchemy>=1.3.20
+  - sqlalchemy>=1.4
   - tiledb-py>=0.7
   - tiledb>=2.1
   - psycopg2
