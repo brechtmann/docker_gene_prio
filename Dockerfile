@@ -18,7 +18,7 @@ RUN conda update -n base -c defaults conda \
         "pytorch" \
         "pandas" \
         "jupyter" \
-        "tiledb-py" \
+        "tiledb-py>=0.8.8" \
         "snakemake" \
         "mlflow" \
     && conda clean --all --yes
