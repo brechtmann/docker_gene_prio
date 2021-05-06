@@ -37,7 +37,7 @@ dependencies:
   - dask
   - jupyter
   - mlflow
-  - papermill>=2.2
+  - papermill>=2.3.1
   - jinja2
   - snakemake
   
