@@ -38,6 +38,7 @@ dependencies:
   - jupyter
   - mlflow
   - papermill>=2.3.1
+  - nbformat>=5.1
   - jinja2
   - snakemake
   
